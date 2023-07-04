@@ -5,16 +5,16 @@ public class Test{
     public static void main(String[] args) {
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
-        MultiThreadSingleton1 multiThreadSingleton1 = MultiThreadSingleton1.getInstance();
-        MultiThreadSingleton1 multiThreadSingleton2 = MultiThreadSingleton1.getInstance();
-        MultiThreadSingleton2 multiThreadSingleton21 = MultiThreadSingleton2.getInstance();
-        MultiThreadSingleton2 multiThreadSingleton22 = MultiThreadSingleton2.getInstance();
+        Singleton1 singleton11 = Singleton1.getInstance();
+        Singleton1 singleton12 = Singleton1.getInstance();
+        Singleton2 singleton21 = Singleton2.getInstance();
+        Singleton2 singleton22 = Singleton2.getInstance();
 
         System.out.println("singleton1 = " + singleton1);
         System.out.println("singleton2 = " + singleton2);
-        System.out.println("multiThreadSingleton1 = " + multiThreadSingleton1);
-        System.out.println("multiThreadSingleton2 = " + multiThreadSingleton2);
-        System.out.println("multiThreadSingleton21 = " + multiThreadSingleton21);
-        System.out.println("multiThreadSingleton22 = " + multiThreadSingleton22);
+        System.out.println("singleton11 = " + singleton11);
+        System.out.println("singleton12 = " + singleton12);
+        System.out.println("singleton21 = " + singleton21);
+        System.out.println("singleton22 = " + singleton22);
     }
 }
