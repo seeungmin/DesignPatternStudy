@@ -1,2 +1,5 @@
-package CreationalPattern.AbstractFactory;public interface Professor {
+package CreationalPattern.AbstractFactory;
+
+public interface Professor {
+    public void explain();
 }
