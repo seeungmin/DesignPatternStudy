@@ -1,17 +1,17 @@
 package CreationalPattern.AbstractFactory;
 
 public class Client {
+
     public static void main(String[] args) {
-        Professor professor1 = new CEPersonFactory().createProfessor();
-        Professor professor2 = new SWPersonFactory().createProfessor();
+        create(new CEPersonFactory());
+        create(new SWPersonFactory());
+    }
 
-        professor1.explain();
-        professor2.explain();
+    private static void create(PersonFactory personFactory){
+        Professor professor = personFactory.createProfessor();
+        Student student = personFactory.createStudent();
 
-        Student student1 = new CEPersonFactory().createStudent();
-        Student student2 = new SWPersonFactory().createStudent();
-
-        student1.explain();
-        student2.explain();
+        professor.explain();
+        student.explain();
     }
 }
