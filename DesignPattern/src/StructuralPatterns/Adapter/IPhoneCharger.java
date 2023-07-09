@@ -1,2 +1,5 @@
-package StructuralPatterns.Adapter;public class IPhoneCharger {
+package StructuralPatterns.Adapter;
+
+public interface IPhoneCharger {
+    public void iPhoneCharge();
 }

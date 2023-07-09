@@ -1,2 +1,5 @@
-package StructuralPatterns.Adapter;public class GalaxyCharger {
+package StructuralPatterns.Adapter;
+
+public interface GalaxyCharger {
+    public void galaxyCharge();
 }
