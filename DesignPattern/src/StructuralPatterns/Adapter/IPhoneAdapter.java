@@ -1,6 +1,6 @@
 package StructuralPatterns.Adapter;
 
-public class IPhoneAdapter implements PhoneCharger{
+public class IPhoneAdapter implements GalaxyCharger{
 
     IPhone iPhone;
 
@@ -9,7 +9,7 @@ public class IPhoneAdapter implements PhoneCharger{
     }
 
     @Override
-    public void phoneCharger() {
+    public void galaxyCharge() {
         iPhone.iPhoneCharge();
     }
 }
