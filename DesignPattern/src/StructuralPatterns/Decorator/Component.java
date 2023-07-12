@@ -1,2 +1,5 @@
-package StructuralPatterns.Decorator;public class Component {
+package StructuralPatterns.Decorator;
+
+public interface Component {
+    public String add();
 }
