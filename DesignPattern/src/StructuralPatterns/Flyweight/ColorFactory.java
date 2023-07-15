@@ -3,7 +3,7 @@ package StructuralPatterns.Flyweight;
 import java.util.HashMap;
 
 public class ColorFactory {
-    public static HashMap<String, Color> map = new HashMap<>();
+    public static final HashMap<String, Color> map = new HashMap<>();
 
     public static Color getColor(String ballColor){
         Color color = (Color)map.get(ballColor);
