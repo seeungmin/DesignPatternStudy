@@ -24,8 +24,6 @@ public class FolderComposite implements FileComponent{
         return sum;
     }
 
-    // 이거 size말고 이름으로만 추가 삭제 보여주면 간단할듯
-
     @Override
     public void remove() {
         for (FileComponent fileComponent : list)
