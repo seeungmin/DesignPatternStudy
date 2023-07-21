@@ -1,2 +1,5 @@
-package StructuralPatterns.Bridge;public class Fat {
+package StructuralPatterns.Bridge;
+
+public interface Fat {
+    public String getDensity();
 }
