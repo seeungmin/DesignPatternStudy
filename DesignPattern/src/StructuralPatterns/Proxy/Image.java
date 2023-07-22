@@ -1,2 +1,5 @@
-package StructuralPatterns.Proxy;public class Image {
+package StructuralPatterns.Proxy;
+
+public interface Image {
+    public void showImage();
 }
