@@ -1,4 +1,4 @@
-package StructuralPatterns.Pacade;
+package StructuralPatterns.Facade;
 
 public class Charge {
     private String name = "";

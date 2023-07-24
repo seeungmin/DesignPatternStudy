@@ -1,4 +1,4 @@
-package StructuralPatterns.Pacade;
+package StructuralPatterns.Facade;
 
 public class Goods {
     private String name = "";
