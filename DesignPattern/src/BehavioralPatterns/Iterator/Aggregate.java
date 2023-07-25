@@ -2,5 +2,5 @@ package BehavioralPatterns.Iterator;
 
 
 public interface Aggregate {
-    public abstract Iterator getIterator();
+    public Iterator createIterator();
 }

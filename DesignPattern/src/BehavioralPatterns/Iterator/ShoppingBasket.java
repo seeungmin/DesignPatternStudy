@@ -15,12 +15,8 @@ public class ShoppingBasket implements Aggregate{
         cosmetics.add(cosmetic);
     }
 
-    public List<Cosmetic> getCosmetics() {
-        return cosmetics;
-    }
-
     @Override
-    public Iterator getIterator() {
+    public Iterator createIterator() {
         return new ShoppingBasketIterator(this.cosmetics);
     }
 }
