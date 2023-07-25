@@ -1,9 +1,9 @@
 package BehavioralPatterns.Iterator;
 
-public class Cosmetics {
-    private String name = "";
+public class Cosmetic {
+    private String name;
 
-    public Cosmetics(String name) {
+    public Cosmetic(String name) {
         this.name = name;
     }
 

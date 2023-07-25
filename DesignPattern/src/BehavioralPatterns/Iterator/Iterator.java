@@ -1,2 +1,6 @@
-package BehavioralPatterns.Iterator;public interface Iterator {
+package BehavioralPatterns.Iterator;
+
+public interface Iterator {
+    public boolean hasNext();
+    public Object next();
 }
