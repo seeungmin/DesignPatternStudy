@@ -2,7 +2,6 @@ package BehavioralPatterns.ChainOfResponsibility;
 
 public abstract class Support {
     private Support next;
-    private int limit = 3;
     public static int check = 0;
 
     public Support setNext(Support next){
