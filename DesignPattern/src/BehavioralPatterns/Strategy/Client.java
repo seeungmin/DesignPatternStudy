@@ -12,5 +12,13 @@ public class Client {
 
         context.setStrategy(new BusStrategy());
         context.goSchool();
+
+        context.setStrategy(new Strategy() {
+            @Override
+            public void goSchool() {
+                System.out.println("1회용");
+            }
+        });
+        context.goSchool();
     }
 }
