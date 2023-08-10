@@ -11,7 +11,7 @@ public class Fan {
         this.airVolumeState = airVolumeState;
     }
 
-    public void push(){
+    public void pushButton(){
         airVolumeState.push();
     }
 }
