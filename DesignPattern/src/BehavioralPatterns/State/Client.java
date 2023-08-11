@@ -8,14 +8,14 @@ public class Client {
         High high = new High();
         Off off = new Off();
 
-        fan.push();
+        fan.pushButton();
         fan.setAirVolumeState(low);
-        fan.push();
+        fan.pushButton();
         fan.setAirVolumeState(middle);
-        fan.push();
+        fan.pushButton();
         fan.setAirVolumeState(high);
-        fan.push();
+        fan.pushButton();
         fan.setAirVolumeState(off);
-        fan.push();
+        fan.pushButton();
     }
 }
