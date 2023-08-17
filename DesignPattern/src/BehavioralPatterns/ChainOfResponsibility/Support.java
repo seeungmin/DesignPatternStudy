@@ -9,7 +9,7 @@ public abstract class Support {
     }
 
     public final void support(Login login){
-        if (check(login))
+        if (!check(login))
             return;
         else if(next != null)
             next.support(login);

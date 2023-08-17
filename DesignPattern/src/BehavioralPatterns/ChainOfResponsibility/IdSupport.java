@@ -4,9 +4,9 @@ public class IdSupport extends Support{
     @Override
     public boolean check(Login login) {
         if(login.getId().equals("myId")){
-            return false;
+            return true;
         }
         System.out.println("아이디가 잘못되었습니다.");
-        return true;
+        return false;
     }
 }
