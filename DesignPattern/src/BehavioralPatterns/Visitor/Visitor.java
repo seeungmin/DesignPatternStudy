@@ -1,7 +1,7 @@
 package BehavioralPatterns.Visitor;
 
 public interface Visitor {
-    public void visitSkt(Skt skt);
+    public void visit(Skt skt);
 
-    public void visitLg(Lg lg);
+    public void visit(Lg lg);
 }

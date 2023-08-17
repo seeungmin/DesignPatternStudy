@@ -9,6 +9,6 @@ public class Lg implements Agency{
 
     @Override
     public void accept(Visitor visitor) {
-        visitor.visitLg(this);
+        visitor.visit(this);
     }
 }

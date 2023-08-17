@@ -9,6 +9,6 @@ public class Skt implements Agency{
 
     @Override
     public void accept(Visitor visitor) {
-        visitor.visitSkt(this);
+        visitor.visit(this);
     }
 }
